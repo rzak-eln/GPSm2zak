@@ -4,86 +4,57 @@
   <head>
     <title>Table layout</title>
     <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        font-family: Georgia, "Times New Roman", Times, serif;
-        color: #424242;
-        background: rgb(89, 72, 138);
-        background: -moz-linear-gradient(
-          90deg,
-          rgb(21, 2, 104) 0%,
-          rgb(33, 11, 231) 100%
-        );
-        background: -webkit-linear-gradient(
-          90deg,
-          rgb(9, 175, 208) 0%,
-          rgb(54, 15, 227) 0%
-        );
-        background: linear-gradient(
-          90deg,
-          rgb(66, 40, 212) 0%,
-          rgba(89, 74, 233, 1) 100%
-        );
-      }
-      h1 {
-        font-size: 32px;
-        color: #090909;
-        position: absolute;
-        left: 70%;
-        top: 20%;
-        transform: translate(-50%, -50%);
-        width: 50%;
-        align-items: center;
-      }
-      table {
-        position: absolute;
-        z-index: 2;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 60%;
-        border-collapse: collapse;
-        border-spacing: 0;
-        box-shadow: 0 2px 15px rgba(122, 45, 45, 0.7);
-        border-radius: 12px 12px 0 0;
-        overflow: hidden;
-      }
-      td,
-      th {
-        padding: 15px 20px;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      }
-      th {
-        background-color: #66dbff;
-        color: #131315;
-        font-family: "Open Sans", Sans-serif;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      }
-      tr {
-        width: 100%;
-        background-color: #bc9374;
-        font-family: "Montserrat", sans-serif;
-      }
-      tr:nth-child(even) {
-        background-color: #941b1b;
-      }
-      td {
-        color: rgb(14, 14, 133);
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        font-weight: bold;
-      }
-      tr {
-        width: 100%;
-        background-color: #fafafa;
-        font-family: "Montserrat", sans-serif;
-      }
+       * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+       }
+       body {
+         font-family: Georgia, \"Times New Roman\", Times, serif;
+         color: #424242;
+         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+           url(https://c4.wallpaperflare.com/wallpaper/381/165/306/simple-background-black-background-minimalism-digital-art-map-hd-wallpaper-preview.jpg);
+       }
+       h1 {
+         font-size: 32px;
+         color: white;
+         position: absolute;
+         left: 70%;
+         top: 20%;
+         transform: translate(-50%, -50%);
+         width: 50%;
+         align-items: center;
+       }
+       table {
+         position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 60%; border-collapse: collapse; border-spacing: 0; box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7); border-radius: 12px 12px 0 0; overflow: hidden;linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+       }
+       td,
+       th {
+         padding: 15px 20px;
+         text-align: center;
+         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+       }
+       th {
+      background-color:  linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), #a0250691; color: #131315; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 600; text-transform: uppercase; font-family: Georgia, \"Times New Roman\", Times, serif
+       }
+       tr {
+         width: 100%;
+         background-color: #bc9374;
+         font-family: "Montserrat", sans-serif;
+       }
+       tr:nth-child(even) {
+         background-color: #941b1b;
+       }
+       td {
+         color: rgb(14, 14, 133);
+         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+         font-weight: bold;
+       }
+       tr {
+         width: 100%;
+         background-color: #fafafa;
+         font-family: "Montserrat", sans-serif;
+       }
     </style>
   </head>
 
